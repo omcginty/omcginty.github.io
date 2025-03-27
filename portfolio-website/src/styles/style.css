@@ -1,0 +1,48 @@
+body {
+    font-family: 'Computer Modern', serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.4;
+    color: #333;
+}
+
+header {
+    padding: 0.5rem 0;
+    text-align: center;
+}
+
+h1 {
+    margin: 1;
+    font-size: 2rem;
+}
+
+h3 {
+    margin: 0rem 0;
+    padding: 0rem;
+    font-size: 1.2rem;
+}
+
+nav {
+    margin: 0;
+}
+
+nav a {
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    padding: 0rem;
+    max-width: 800px;
+    margin: auto;
+}
+
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    margin-top: 3rem;
+}
