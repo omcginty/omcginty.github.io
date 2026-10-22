@@ -1,41 +1,94 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="styles/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Research — Owen McGinty</title>
+  <meta name="description" content="Research by Owen McGinty in number theory, formal verification, and computational modeling at UC Berkeley.">
+  <meta name="author" content="Owen McGinty">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
-        <h1>owen mcginty</h1>
-        <nav>
-            <a href="index.html">about</a>
-            <a href="#research">research</a>
-            <a href="reading.html">reading list</a>
-            <a href="courses.html">courses</a>
-        </nav>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="site-name" href="index.html">Owen McGinty</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">About</a>
+        <a href="research.html" aria-current="page">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="courses.html">Courses</a>
+        <a class="nav-cv" href="assets/owen-mcginty-resume.pdf">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <header class="page-header">
+      <p class="eyebrow">Research</p>
+      <h1>Research</h1>
     </header>
-    <main>
-        <section id="research">
-            <h2>research</h2>
-            <h3><a href="https://heat.nuc.berkeley.edu/">HEAT Lab</a> Dec. 2024 - Present</h3>
-            <p>Research assistant within the Nuclear Engineering department's HEAT Lab, led by Prof. Guanyu Su. My work focuses on the deployment 
-                of fiber optic temperature sensors for use in sodium-cooled fast reactors, which enable high-frequency monitoring and high spatial resolution. 
-                I conduct CFD simulations to understand fluid behavior and write algorithms to predict flow velocity from delayed temperature signals.</p>
-            <h3><a href="https://shilun-allan-li.github.io/tcslib/">TCSLib</a> Jan. 2026 - Present</h3>
-            <p>Working with Prof. Venkatesan Guruswami and Shilun Li to develop a library of formalized theoretical computer science in Lean. I'm currently
-                focusing on formalizing hypercontractive results for Boolean functions.
-            </p>
-            <h3><a href="https://wp.math.berkeley.edu/drp/wp-content/uploads/sites/18/2026/05/2026_Spring_McGinty.pdf">DRP Spring 2026</a></h3>
-            <p> Directed reading with Sai Sanjeev Balakrishnan in Galois theory, following Milne's notes. I presented on Kummer theory and its applications.
-            </p>
-        </section>
-    </main>
-    <footer>
-        owen_mcginty (at) berkeley (dot) edu
-    </footer>
-    <script src="scripts/main.js"></script>
+
+    <section class="section" aria-labelledby="projects-title">
+      <h2 class="section-title" id="projects-title">Projects</h2>
+
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Clemson Number Theory REU</h3>
+          <p class="entry-meta">June 2026 – July 2026</p>
+        </div>
+        <p class="entry-sub">Research Assistant · Modular forms and elliptic curves</p>
+        <p>With Professor Hui Xue, I studied the zeros of modular forms and proved several interlacing properties for the Serre derivatives of Eisenstein series.</p>
+        <p><a href="https://arxiv.org/abs/2608.15248">arXiv preprint</a></p>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <h3><a href="https://shilun-allan-li.github.io/tcslib/">TCSLib Project</a></h3>
+          <p class="entry-meta">Jan 2026 – Present</p>
+        </div>
+        <p class="entry-sub">Research Assistant · Formal verification in Lean</p>
+        <p>With Professor Venkatesan Guruswami and Shilun Li, I help build a library of formalized theoretical computer science in Lean. My work focuses on the analysis of Boolean functions: formalizing essential definitions and lemmas, verifying results on hypercontractivity and threshold functions, and helping implement AI-based methods that accelerate the formalization process.</p>
+        <p><a href="https://shilun-allan-li.github.io/tcslib/">TCSLib website</a></p>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Berkeley Directed Reading &amp; Seminars</h3>
+          <p class="entry-meta">Jan 2026 – Present</p>
+        </div>
+        <p class="entry-sub">Independent Study · Galois theory and Lie algebras</p>
+        <p>Directed reading in Galois theory with Sai Sanjeev Balakrishnan, following Milne's notes. I presented on Kummer theory and its applications at a department presentation, and I am continuing to study Lie algebras with a graduate student. I am also participating in a research seminar on complex geometry and algebraic topology.</p>
+        <p><a href="https://wp.math.berkeley.edu/drp/wp-content/uploads/sites/18/2026/05/2026_Spring_McGinty.pdf">SP26 Galois theory slides</a></p>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <h3><a href="https://heat.nuc.berkeley.edu/">HEAT Lab</a></h3>
+          <p class="entry-meta">Nov 2024 – Present</p>
+        </div>
+        <p class="entry-sub">Research Assistant · Turbulent flow modeling and data analysis</p>
+        <p>At Berkeley's HEAT Lab, led by Professor Guanyu Su, I work on fiber-optic temperature sensing for sodium-cooled fast reactors. I simulate sensors under extreme conditions in STAR-CCM+, improving simulation performance by roughly 2.5×, and analyze temperature data in Python to infer fluid velocity. I am also studying near-wall behavior of molten salt and its effect on accurate velocimetry.</p>
+      </article>
+    </section>
+
+    <section class="section" aria-labelledby="interests-title">
+      <h2 class="section-title" id="interests-title">Interests</h2>
+      <p>Algebraic geometry · number theory · modular forms · formal verification · simulation and data analysis</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© 2026 Owen McGinty</p>
+      <p class="footer-links">
+        <a href="mailto:owen_mcginty@berkeley.edu">Email</a>
+        <a href="https://www.linkedin.com/in/owenjmcginty/">LinkedIn</a>
+        <a href="assets/owen-mcginty-resume.pdf">CV</a>
+      </p>
+    </div>
+  </footer>
 </body>
 </html>

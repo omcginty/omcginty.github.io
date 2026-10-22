@@ -1,32 +1,128 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="styles/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Owen McGinty — Mathematics at UC Berkeley</title>
+  <meta name="description" content="Owen McGinty is an undergraduate studying mathematics at UC Berkeley, with interests in algebraic geometry, number theory, and formal verification in Lean.">
+  <meta name="author" content="Owen McGinty">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
-        <h1>owen mcginty</h1>
-        <nav>
-            <a href="#about">about</a>
-            <a href="research.html">research</a>
-            <a href="reading.html">reading list</a>
-            <a href="courses.html">courses</a>
-        </nav>
-    </header>
-    <main>
-        <section id="about">
-            <h2>about me</h2>
-            <p>I'm a second-year Berkeley student studying math. I'm interested in algebraic geometry and analytic number theory.</p>
-        </section>
-        <img src="assets/fellini.png" alt="dog" width="756" height="1008">
-    </main>
-    <footer>
-        owen_mcginty (at) berkeley (dot) edu
-    </footer>
-    <script src="scripts/main.js"></script>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="site-name" href="index.html">Owen McGinty</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html" aria-current="page">About</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="courses.html">Courses</a>
+        <a class="nav-cv" href="assets/owen-mcginty-resume.pdf">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <section class="hero">
+      <p class="eyebrow">Mathematics · UC Berkeley</p>
+      <h1>Owen McGinty</h1>
+      <p class="lede">I'm an undergraduate at UC Berkeley studying mathematics, with interests in algebraic number theory.</p>
+      <ul class="contact" role="list">
+        <li><a href="mailto:owen_mcginty@berkeley.edu">owen_mcginty@berkeley.edu</a></li>
+        <li><a href="https://www.linkedin.com/in/owenjmcginty/">LinkedIn</a></li>
+        <li>Santa Cruz, CA</li>
+      </ul>
+    </section>
+
+    <section class="section" id="about" aria-labelledby="about-title">
+      <h2 class="section-title" id="about-title">About</h2>
+      <div class="prose">
+        <p>At Berkeley, I'm pursuing a B.A. in Mathematics expected in May 2028. My coursework has centered on algebra, number theory, and analysis, and I've enjoyed moving from coursework into research.</p>
+        <p>I currently work on formal verification with the <a href="https://shilun-allan-li.github.io/tcslib/">TCSLib project</a> and on turbulent flow modeling in the <a href="https://heat.nuc.berkeley.edu/">HEAT Lab</a>. Alongside research, I teach advanced mathematics to K–6 students through the Descartes Learning Club.</p>
+      </div>
+    </section>
+
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <h2 class="section-title" id="experience-title">Research &amp; Teaching</h2>
+
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Research Assistant, Clemson Number Theory REU</h3>
+          <p class="entry-meta">June 2026 – July 2026</p>
+        </div>
+        <p class="entry-sub">Modular forms and elliptic curves · Berkeley, CA</p>
+        <ul class="bullets">
+          <li>Worked with Professor Hui Xue on the zeros of modular forms.</li>
+          <li>Proved several interlacing properties for the Serre derivatives of Eisenstein series.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Research Assistant, <a href="https://shilun-allan-li.github.io/tcslib/">Prof. Guruswami's TCSLib Project</a></h3>
+          <p class="entry-meta">Jan 2026 – Present</p>
+        </div>
+        <p class="entry-sub">Formally proving mathematics · Berkeley, CA</p>
+        <ul class="bullets">
+          <li>Formally proved essential definitions and lemmas for the analysis of Boolean functions in Lean.</li>
+          <li>Formally verified several important results on hypercontractivity and threshold functions.</li>
+          <li>Helped implement new AI-based methods to accelerate the formalization process.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Independent Study, Berkeley Directed Reading &amp; Seminars</h3>
+          <p class="entry-meta">Jan 2026 – Present</p>
+        </div>
+        <p class="entry-sub">Mathematics reading courses · Berkeley, CA</p>
+        <ul class="bullets">
+          <li>Studied Galois theory and, in particular, Kummer theory, culminating in a department presentation.</li>
+          <li>Ongoing study of Lie algebras with a graduate student.</li>
+          <li>Participating in a research seminar on complex geometry and algebraic topology.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Research Assistant, <a href="https://heat.nuc.berkeley.edu/">Prof. Su's HEAT Lab</a></h3>
+          <p class="entry-meta">Nov 2024 – Present</p>
+        </div>
+        <p class="entry-sub">Turbulent flow modeling and data analysis · Berkeley, CA</p>
+        <ul class="bullets">
+          <li>Simulated fiber-optic temperature sensors in extreme sodium-cooled fast reactor conditions using STAR-CCM+, increasing simulation performance by about 2.5× and improving accuracy.</li>
+          <li>Conducted data analyses of fiber temperature to predict fluid velocity in Python.</li>
+          <li>Pursued novel research on near-wall behavior of molten salt and its impact on accurate velocimetry.</li>
+        </ul>
+      </article>
+
+      <article class="entry">
+        <div class="entry-head">
+          <h3>Mathematics Instructor, Descartes Learning Club</h3>
+          <p class="entry-meta">Jan 2026 – Present</p>
+        </div>
+        <p class="entry-sub">Accelerated mathematics instruction · Berkeley, CA</p>
+        <ul class="bullets">
+          <li>Teaching advanced mathematics from the Art of Problem Solving curriculum to K–6 students.</li>
+          <li>Producing individualized lesson plans and designing math puzzles.</li>
+        </ul>
+      </article>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© 2026 Owen McGinty</p>
+      <p class="footer-links">
+        <a href="mailto:owen_mcginty@berkeley.edu">Email</a>
+        <a href="https://www.linkedin.com/in/owenjmcginty/">LinkedIn</a>
+        <a href="assets/owen-mcginty-resume.pdf">CV</a>
+      </p>
+    </div>
+  </footer>
 </body>
 </html>

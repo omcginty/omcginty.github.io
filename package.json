@@ -1,22 +1,16 @@
 {
-  "name": "portfolio-website",
+  "name": "owen-mcginty-website",
   "version": "1.0.0",
-  "description": "A simple portfolio website to showcase projects and skills.",
-  "main": "src/index.html",
+  "private": true,
+  "description": "A simple, dependency-free static personal website for Owen McGinty.",
   "scripts": {
-    "start": "live-server src",
-    "build": "echo 'Build step not defined'",
-    "test": "echo 'No tests defined'"
+    "start": "python3 -m http.server 8000"
   },
   "keywords": [
-    "portfolio",
-    "website",
-    "projects"
+    "personal-website",
+    "static-site",
+    "academic-website"
   ],
   "author": "Owen McGinty",
-  "license": "MIT",
-  "dependencies": {},
-  "devDependencies": {
-    "live-server": "^1.2.1"
-  }
+  "license": "MIT"
 }

@@ -1,57 +1,98 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>portfolio</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
-    <link rel="stylesheet" href="styles/style.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Courses — Owen McGinty</title>
+  <meta name="description" content="Coursework taken by Owen McGinty at UC Berkeley, including mathematics, computer science, and physics.">
+  <meta name="author" content="Owen McGinty">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="styles/style.css">
 </head>
 <body>
-    <header>
-        <h1>owen mcginty</h1>
-        <nav>
-            <a href="index.html">about</a>
-            <a href="research.html">research</a>
-            <a href="reading.html">reading list</a>
-            <a href="#courses">courses</a>
-        </nav>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="site-header">
+    <div class="wrap header-inner">
+      <a class="site-name" href="index.html">Owen McGinty</a>
+      <nav class="site-nav" aria-label="Main navigation">
+        <a href="index.html">About</a>
+        <a href="research.html">Research</a>
+        <a href="teaching.html">Teaching</a>
+        <a href="courses.html" aria-current="page">Courses</a>
+        <a class="nav-cv" href="assets/owen-mcginty-resume.pdf">CV</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <header class="page-header">
+      <p class="eyebrow">Coursework</p>
+      <h1>Courses</h1>
+      <p class="lede">A record of my coursework at UC Berkeley. Graduate-level courses are listed separately from my term-by-term undergraduate record.</p>
     </header>
-    <main>
-        <section id="courses">
-            <h2>relevant courses</h2>
-            <p style="margin-left: 15px; font-size: 1.1rem;"><i>Spring 2026</i></p>
-            <ul>
-                <li>MATH 135: Introduction to the Theory of Sets</li>
-                <li>MATH 143: Elementary Algebraic Geometry</li>
-                <li>MATH 185: Complex Analysis</li>
-                <li>CS 294-268: Formalizing Math and TCS in Lean</li>
-            </ul>
 
-            <p style="margin-left: 15px; font-size: 1.1rem;"><i>Fall 2025</i></p>
-            <ul>
-                <li>MATH 104: Introduction to Analysis</li>
-                <li>MATH 110: Abstract Linear Algebra</li>
-                <li>MATH 113: Abstract Algebra</li>
-            </ul>
+    <section class="section" aria-labelledby="graduate-title">
+      <h2 class="section-title" id="graduate-title">Graduate coursework</h2>
+      <ul class="course-list">
+        <li>Number Theory</li>
+        <li>Abstract Algebra</li>
+        <li>Analysis &amp; Topology</li>
+        <li>Formalizing Math and TCS in Lean (CS 294-268)</li>
+      </ul>
+    </section>
 
-            <p style="margin-left: 15px; font-size: 1.1rem;"><i>Spring 2025</i></p>
-            <ul>
-                <li>MATH 54: Linear Algebra & Differential Equations</li>
-                <li>MATH 55: Discrete Mathematics</li>
-                <li>PHYSICS 5A: Introductory Mechanics and Relativity</li>
-            </ul>
+    <section class="section" aria-labelledby="undergraduate-title">
+      <h2 class="section-title" id="undergraduate-title">Undergraduate coursework</h2>
+      <div class="terms">
+        <div class="term">
+          <h3>Spring 2026</h3>
+          <ul class="course-list">
+            <li>MATH 135: Introduction to the Theory of Sets</li>
+            <li>MATH 143: Elementary Algebraic Geometry</li>
+            <li>MATH 185: Complex Analysis</li>
+          </ul>
+        </div>
 
-            <p style="margin-left: 15px; font-size: 1.1rem;"><i>Fall 2024</i></p>
-            <ul>
-                <li>MATH 53: Multivariable Calculus</li>
-                <li>MATH 24: Classical and Quantum Walks</li>
-            </ul>
-        </section>
-    </main>
-    <footer>
-        owen_mcginty (at) berkeley (dot) edu
-    </footer>
-    <script src="scripts/main.js"></script>
+        <div class="term">
+          <h3>Fall 2025</h3>
+          <ul class="course-list">
+            <li>MATH 104: Introduction to Analysis</li>
+            <li>MATH 110: Abstract Linear Algebra</li>
+            <li>MATH 113: Abstract Algebra</li>
+          </ul>
+        </div>
+
+        <div class="term">
+          <h3>Spring 2025</h3>
+          <ul class="course-list">
+            <li>MATH 54: Linear Algebra &amp; Differential Equations</li>
+            <li>MATH 55: Discrete Mathematics</li>
+            <li>PHYSICS 5A: Introductory Mechanics and Relativity</li>
+          </ul>
+        </div>
+
+        <div class="term">
+          <h3>Fall 2024</h3>
+          <ul class="course-list">
+            <li>MATH 53: Multivariable Calculus</li>
+            <li>MATH 24: Classical and Quantum Walks</li>
+          </ul>
+        </div>
+      </div>
+      <p class="note">Before Berkeley, I took dual-enrollment courses in mathematics, computer science, and humanities at Cabrillo College.</p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <p>© 2026 Owen McGinty</p>
+      <p class="footer-links">
+        <a href="mailto:owen_mcginty@berkeley.edu">Email</a>
+        <a href="https://www.linkedin.com/in/owenjmcginty/">LinkedIn</a>
+        <a href="assets/owen-mcginty-resume.pdf">CV</a>
+      </p>
+    </div>
+  </footer>
 </body>
 </html>
